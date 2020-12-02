@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+div {
+  background-color: #1b3f69;
+}

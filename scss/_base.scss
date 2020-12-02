@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background-image: $base-bg;
+    background-size: $base-bg-size;
+    color: $base-color;
+}
+
+div {
+    background-color: $base-div-bg-color;
+}
