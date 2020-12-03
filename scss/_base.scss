@@ -5,7 +5,9 @@
 html, body {
     margin: 0;
     background-image: $base-bg;
-    background-size: $base-bg-size;
+    background-position: top;
+    background-size: contain;
+    background-repeat: $base-bg-repeat;
     color: $base-color;
 }
 
