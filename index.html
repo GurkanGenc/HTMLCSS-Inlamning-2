@@ -15,58 +15,58 @@
 </head>
 
 <body>
-  <div class="container shadow p-5 mt-5 mb-5" style="@media (min-width: 768px) { max-width: 50%; }; max-width: 40%; border-radius: 3rem;">
+  <div class="container shadow p-5 mt-5 mb-5">
     <form action="">
 
       <div class="d-flex justify-content-center align-items-center">
-        <img class="mr-2 pb-2" src="images/logo.png" alt="logo" style="height: 3rem;">
-        <h1 class="mb-3" style="text-align: center; display: inline;">SeBra Optik</h1>
+        <img class="logo mr-2 pb-2" src="images/logo.png" alt="logo">
+        <h1 class="mb-3">SeBra Optik</h1>
       </div>
 
-      <hr class="mt-4 mb-4" style="background-color: white;">
+      <hr class="mt-4 mb-4">
 
       <div class="form-group">
         <label for="firstname">First Name</label>
-        <input class="form-control" type="text">
+        <input class="form-control" type="text" id="firstname" required>
       </div>
 
       <div class="form-group">
         <label for="lastname">Last Name</label>
-        <input class="form-control" type="text">
+        <input class="form-control" type="text" id="lastname" required>
       </div>
 
       <div class="form-group">
         <label for="billingaddress">Billing Address</label>
-        <input class="form-control" type="text">
+        <input class="form-control" type="text" id="billingaddress" required>
       </div>
 
       <div class="form-group">
         <label for="deliveryaddress">Delivery Address</label>
-        <input class="form-control" type="text">
+        <input class="form-control" type="text" id="deliveryaddress" required>
       </div>
 
       <div class="form-group">
         <label for="email">Email Address</label>
-        <input class="form-control" type="email" name="" id="">
+        <input class="form-control" type="email" id="email" required>
       </div>
 
       <div class="form-group">
         <label for="password">Password</label>
-        <input class="form-control" type="password" name="" id="">
+        <input class="form-control" type="password" id="password" required>
       </div>
 
       <div class="form-group">
         <label for="passwordconformation">Confirm Password</label>
-        <input class="form-control" type="password" name="" id="">
+        <input class="form-control" type="password" id="passwordconformation" required>
       </div>
 
       <!-- Checkboxes -->
       <div class="custom-checkbox">
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" id="termsofuse" required>
         <label for="termsofuse">Accept our <a href="termsandcond.html" target="_blank">Terms of use</a></label>
         <div class="w-100"></div>
-        <input type="checkbox" name="" id="">
-        <label for="newsletter">To get awesome deals, subscribe to our Newsletter</label>
+        <input type="checkbox" id="newsletter">
+        <label for="newsletter">Subscribe to our newsletter</label>
       </div>
 
       <!-- Submit Button -->
@@ -77,12 +77,12 @@
 
       <div class="d-flex justify-content-center mt-2">
         <span class="mr-2 align-self-center">Already a member?</span>
-        <a style="color: #00ddff;" href="signin.html" target="_blank">Sign in</a>
+        <a href="signin.html" target="_blank">Sign in</a>
       </div>
     </form>
   </div>
 
-  <footer class="text-center" style="position: static; bottom: 0; width: 100%; display: flex; justify-content: center;">
+  <footer class="text-center">
     <a href='https://www.freepik.com/' target="_blank">Icon vector created by freepik - www.freepik.com</a>
   </footer>
 </body>

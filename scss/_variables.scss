@@ -1,4 +1,10 @@
 $base-bg: url('../images/background.jpg');
 $base-bg-repeat: no-repeat;
-$base-color: white;
-$base-div-bg-color: #1b3f69;
+$white: white;
+$main-blue: #1b3f69;
+$link-blue: #00ddff;
+
+// Breakpoints
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;

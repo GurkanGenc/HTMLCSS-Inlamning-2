@@ -4,12 +4,74 @@
 
 html, body {
   margin: 0;
-  background-image: url("../images/background.jpg");
-  background-position: top;
+  background-position: center top;
   background-repeat: no-repeat;
   color: white;
 }
 
+@media (min-width: 768px) {
+  html, body {
+    background-image: url("../images/background.jpg");
+  }
+}
+
 div {
   background-color: #1b3f69;
+}
+
+.container {
+  border-radius: 3rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 40%;
+  }
+}
+
+.logo {
+  height: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 3rem;
+  }
+}
+
+h1 {
+  text-align: center;
+  display: inline;
+  font-size: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+hr {
+  background-color: white;
+}
+
+a {
+  color: #00ddff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ebe70c;
 }
